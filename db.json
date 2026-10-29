@@ -1,0 +1,484 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "CSS Flexbox Guide",
+      "body": "Flexbox helps create flexible and responsive layouts.",
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "title": "React Hooks Explained eeeeeeeeeeee",
+      "body": "Hooks allow functional components to use React features.",
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "title": "Learning REST APIs",
+      "body": "REST APIs allow applications to communicate with servers.",
+      "userId": 5
+    },
+    {
+      "id": 9,
+      "title": "Responsive Web Design",
+      "body": "Responsive design adapts layouts to different screen sizes.",
+      "userId": 4
+    },
+    {
+      "id": 10,
+      "title": "Getting Started with Node.js",
+      "body": "Node.js allows JavaScript to run outside the browser.",
+      "userId": 5
+    },
+    {
+      "title": "tttttttttttttt",
+      "body": "444444444444",
+      "userId": 3,
+      "id": 11
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 55000,
+      "description": "High-performance laptop for work and study",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 25000,
+      "description": "Smartphone with a high-resolution camera",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "category": "Accessories",
+      "price": 2500,
+      "description": "Wireless headphones with clear sound",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Keyboard",
+      "category": "Accessories",
+      "price": 1500,
+      "description": "Mechanical keyboard for comfortable typing",
+      "inStock": false
+    },
+    {
+      "id": 5,
+      "name": "Mouse",
+      "category": "Accessories",
+      "price": 800,
+      "description": "Wireless mouse with an ergonomic design",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Monitor",
+      "category": "Electronics",
+      "price": 12000,
+      "description": "24-inch Full HD computer monitor",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Backpack",
+      "category": "Fashion",
+      "price": 1800,
+      "description": "Durable backpack for travel and daily use",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Water Bottle",
+      "category": "Home",
+      "price": 500,
+      "description": "Reusable stainless steel water bottle",
+      "inStock": false
+    },
+    {
+      "id": 9,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 4500,
+      "description": "Smart watch with fitness tracking features",
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Desk Lamp",
+      "category": "Home",
+      "price": 1200,
+      "description": "LED desk lamp for reading and working",
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Tablet",
+      "category": "Electronics",
+      "price": 18000,
+      "description": "Portable tablet for entertainment and productivity",
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 2200,
+      "description": "Portable speaker with wireless connectivity",
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Running Shoes",
+      "category": "Fashion",
+      "price": 3200,
+      "description": "Comfortable shoes for running and exercise",
+      "inStock": false
+    },
+    {
+      "id": 14,
+      "name": "Office Chair",
+      "category": "Furniture",
+      "price": 7500,
+      "description": "Ergonomic chair for office and home use",
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "Coffee Maker",
+      "category": "Home",
+      "price": 3500,
+      "description": "Automatic coffee maker for everyday use",
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "External Hard Drive",
+      "category": "Electronics",
+      "price": 4800,
+      "description": "Portable storage device for backups and files",
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "Sunglasses",
+      "category": "Fashion",
+      "price": 1500,
+      "description": "Stylish sunglasses with UV protection",
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Power Bank",
+      "category": "Accessories",
+      "price": 1800,
+      "description": "Portable charger for smartphones and tablets",
+      "inStock": false
+    },
+    {
+      "id": 19,
+      "name": "Printer",
+      "category": "Electronics",
+      "price": 9500,
+      "description": "All-in-one printer for home and office documents",
+      "inStock": true
+    },
+    {
+      "id": 20,
+      "name": "Notebook",
+      "category": "Stationery",
+      "price": 120,
+      "description": "Ruled notebook for notes and daily planning",
+      "inStock": true
+    },
+    {
+      "id": 21,
+      "name": "Gaming Console",
+      "category": "Electronics",
+      "price": 42000,
+      "description": "Gaming console for immersive entertainment",
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "name": "Webcam",
+      "category": "Accessories",
+      "price": 2800,
+      "description": "HD webcam for video meetings and streaming",
+      "inStock": true
+    },
+    {
+      "id": 23,
+      "name": "Microphone",
+      "category": "Accessories",
+      "price": 3500,
+      "description": "USB microphone for recording and podcasts",
+      "inStock": false
+    },
+    {
+      "id": 24,
+      "name": "Television",
+      "category": "Electronics",
+      "price": 38000,
+      "description": "Smart LED television with 4K resolution",
+      "inStock": true
+    },
+    {
+      "id": 25,
+      "name": "Refrigerator",
+      "category": "Home",
+      "price": 28000,
+      "description": "Energy-efficient refrigerator for home use",
+      "inStock": true
+    },
+    {
+      "id": 26,
+      "name": "Washing Machine",
+      "category": "Home",
+      "price": 22000,
+      "description": "Automatic washing machine for laundry",
+      "inStock": true
+    },
+    {
+      "id": 27,
+      "name": "Air Conditioner",
+      "category": "Home",
+      "price": 35000,
+      "description": "Split air conditioner for room cooling",
+      "inStock": false
+    },
+    {
+      "id": 28,
+      "name": "Electric Kettle",
+      "category": "Home",
+      "price": 1100,
+      "description": "Electric kettle for boiling water quickly",
+      "inStock": true
+    },
+    {
+      "id": 29,
+      "name": "Blender",
+      "category": "Home",
+      "price": 2200,
+      "description": "Kitchen blender for smoothies and food preparation",
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "name": "Toaster",
+      "category": "Home",
+      "price": 1600,
+      "description": "Compact toaster for breakfast preparation",
+      "inStock": true
+    },
+    {
+      "id": 31,
+      "name": "T-Shirt",
+      "category": "Fashion",
+      "price": 699,
+      "description": "Cotton T-shirt for everyday wear",
+      "inStock": true
+    },
+    {
+      "id": 32,
+      "name": "Jeans",
+      "category": "Fashion",
+      "price": 1499,
+      "description": "Casual denim jeans with a comfortable fit",
+      "inStock": true
+    },
+    {
+      "id": 33,
+      "name": "Jacket",
+      "category": "Fashion",
+      "price": 2999,
+      "description": "Lightweight jacket for casual outings",
+      "inStock": false
+    },
+    {
+      "id": 34,
+      "name": "Wrist Watch",
+      "category": "Fashion",
+      "price": 2200,
+      "description": "Classic wrist watch with a stylish design",
+      "inStock": true
+    },
+    {
+      "id": 35,
+      "name": "Wallet",
+      "category": "Accessories",
+      "price": 900,
+      "description": "Compact wallet for cards and cash",
+      "inStock": true
+    },
+    {
+      "id": 36,
+      "name": "Travel Suitcase",
+      "category": "Accessories",
+      "price": 4500,
+      "description": "Spacious suitcase for business and leisure travel",
+      "inStock": true
+    },
+    {
+      "id": 37,
+      "name": "Sofa",
+      "category": "Furniture",
+      "price": 32000,
+      "description": "Three-seater sofa for a comfortable living room",
+      "inStock": false
+    },
+    {
+      "id": 38,
+      "name": "Dining Table",
+      "category": "Furniture",
+      "price": 18000,
+      "description": "Wooden dining table for family meals",
+      "inStock": true
+    },
+    {
+      "id": 39,
+      "name": "Bookshelf",
+      "category": "Furniture",
+      "price": 6500,
+      "description": "Multi-level bookshelf for organizing books",
+      "inStock": true
+    },
+    {
+      "id": 40,
+      "name": "Study Table",
+      "category": "Furniture",
+      "price": 5500,
+      "description": "Study table for students and home offices",
+      "inStock": true
+    },
+    {
+      "id": 41,
+      "name": "Ballpoint Pen",
+      "category": "Stationery",
+      "price": 20,
+      "description": "Smooth-writing pen for everyday use",
+      "inStock": true
+    },
+    {
+      "id": 42,
+      "name": "Marker Set",
+      "category": "Stationery",
+      "price": 250,
+      "description": "Colorful markers for drawing and highlighting",
+      "inStock": true
+    },
+    {
+      "id": 43,
+      "name": "Sketchbook",
+      "category": "Stationery",
+      "price": 350,
+      "description": "Drawing book for sketches and illustrations",
+      "inStock": false
+    },
+    {
+      "id": 44,
+      "name": "Calculator",
+      "category": "Stationery",
+      "price": 450,
+      "description": "Scientific calculator for mathematical calculations",
+      "inStock": true
+    },
+    {
+      "id": 45,
+      "name": "Yoga Mat",
+      "category": "Sports",
+      "price": 850,
+      "description": "Non-slip exercise mat for yoga and stretching",
+      "inStock": true
+    },
+    {
+      "id": 46,
+      "name": "Dumbbells",
+      "category": "Sports",
+      "price": 1800,
+      "description": "Pair of dumbbells for strength training",
+      "inStock": true
+    },
+    {
+      "id": 47,
+      "name": "Football",
+      "category": "Sports",
+      "price": 750,
+      "description": "Durable football for outdoor matches",
+      "inStock": false
+    },
+    {
+      "id": 48,
+      "name": "Badminton Racket",
+      "category": "Sports",
+      "price": 1300,
+      "description": "Lightweight racket for recreational badminton",
+      "inStock": true
+    },
+    {
+      "id": 49,
+      "name": "Face Wash",
+      "category": "Personal Care",
+      "price": 299,
+      "description": "Gentle facial cleanser for daily skincare",
+      "inStock": true
+    },
+    {
+      "id": 50,
+      "name": "Electric Toothbrush",
+      "category": "Personal Care",
+      "price": 1800,
+      "description": "Rechargeable toothbrush for daily oral hygiene",
+      "inStock": true
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User 1"
+    },
+    {
+      "id": 2,
+      "name": "User 2"
+    },
+    {
+      "id": 3,
+      "name": "User 3"
+    },
+    {
+      "id": 4,
+      "name": "User 4"
+    },
+    {
+      "id": 5,
+      "name": "User 5"
+    },
+    {
+      "id": 6,
+      "name": "User 6"
+    },
+    {
+      "id": 7,
+      "name": "User 7"
+    },
+    {
+      "id": 8,
+      "name": "User 8"
+    },
+    {
+      "id": 9,
+      "name": "User 9"
+    },
+    {
+      "id": 10,
+      "name": "User 10"
+    }
+  ]
+}
