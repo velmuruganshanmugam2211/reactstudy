@@ -9,6 +9,8 @@ import Paginationqueries from '../Components/TanStack/Paginationqueries'
 import InfinateQueries from '../Components/TanStack/InfinateQueries'
 import InfinateQueryScroll from '../Components/TanStack/InfinateQueryScroll'
 import UseQueriesDemo from '../Components/TanStack/UseQueriesDemo'
+// import Operators from '../Components/Others/Operators'
+// import Localstorage from '../Components/LocalStorage/LocalStorage'
 
 
 function AppRouter() {
@@ -117,6 +119,28 @@ function AppRouter() {
                 >
                     UseQueriesDemo
                 </NavLink>
+                <NavLink
+                    className={({ isActive }) =>
+                        `text-lg font-bold ${isActive
+                            ? "text-white bg-gray-400/50 rounded-lg py-1 px-2"
+                            : "text-white hover:text-blue-700"
+                        }`
+                    }
+                    to="/operators"
+                >
+                    Operators
+                </NavLink>
+                {/* <NavLink
+                    className={({ isActive }) =>
+                        `text-lg font-bold ${isActive
+                            ? "text-white bg-gray-400/50 rounded-lg py-1 px-2"
+                            : "text-white hover:text-blue-700"
+                        }`
+                    }
+                    to="/localstorage"
+                >
+                    LocalStorage
+                </NavLink> */}
                 {/* <NavLink
                     className={({ isActive }) =>
                         `text-lg font-bold ${isActive
@@ -141,6 +165,8 @@ function AppRouter() {
                 <Route path='*' element={<TanStackfile />} />
                 <Route path='infinitescroll' element={<InfinateQueryScroll />} />
                 <Route path='usequeriesdemo' element={<UseQueriesDemo />} />
+                {/* <Route path='operators' element={<Operators />} /> */}
+                {/* <Route path='localstorage' element={<Localstorage />} /> */}
             </Routes>
         </BrowserRouter>
     )

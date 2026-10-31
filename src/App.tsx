@@ -16,16 +16,16 @@ import './App.css'
 import { Provider } from 'react-redux'
 import { store } from './store'
 // import Counteradd from './Components/redux/counteradd'
-import AppRouter from './routes/AppRouter'
-
+// import AppRouter from './routes/AppRouter'
+import LocalStorage from '../../my-app/src/Components/LocalStorage/Localstorage'
 
 function App() {
 
   return (
     <>
-    <AppRouter />
+    {/* <AppRouter /> */}
     <Provider store={store}>
-    <div className="flex items-center justify-center flex-col  m-10 ">
+    <div>
       {/* <UseEffecthook /> */}
       {/* <UseRefhook />
       <UseStatehook /> */}
@@ -42,6 +42,7 @@ function App() {
       {/* <CustomerView  /> */}
       {/* <Counteradd /> */}
       {/* <Tanstack /> */}
+      <LocalStorage />
     </div>
     </Provider>
     </>
